@@ -1,12 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+// import App from './App';
+// import Example from './Example';
+import ExampleHook from './ExampleHook';
+// import ExampleManyVar from './ExampleManyVar';
+// import ExampleEffect from './ExampleEffect';
+// import ExampleUseContext from './ExampleUseContext';
+// import ExampleUseReducer from './ExampleUseReducer';
+// import Case from "./case/Case";
+// import Lx from './practise/Lx';
+// import ExampleUseMemo from './ExampleUseMemo';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+// import ExampleUseRef from './ExampleUseRef';
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
+// import MyHooks from './MyHooks';
+
+ReactDOM.render(<ExampleHook />, document.getElementById('root'));
